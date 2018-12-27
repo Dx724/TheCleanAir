@@ -1,0 +1,223 @@
+html, body {
+	height: 7420vh;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	background-color: #e1fdff;
+}
+
+#contentCenterer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+}
+
+#pinnedElement, #pinnedElement2, #pinnedElement3, #pinnedElement4, #pinnedElement4b, #pinnedElement6 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 0px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+#pinnedElement {
+	background-color: #cc2222;
+	font-family: 'Oswald', fantasy;
+	font-size: 55px;
+	letter-spacing: 3px;
+	width: 100%;
+	height: 300px;
+	padding-top: 30px;
+	margin: 150px 0 0 0;
+}
+
+#subtitle {
+	font-size: 25px;
+	font-family: monospace;
+}
+
+#contentCenterer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#elementText, #elementText2 {
+	font-size: 20px;
+	opacity: 0;
+}
+
+.spacer1k {
+	display: block;
+	width: 100vw;
+	height: 1000px;
+}
+
+.spacer500 {
+	display: block;
+	width: 100vw;
+	height: 500px;
+}
+
+.spacer750 {
+	display: block;
+	width: 100vw;
+	height: 750px;
+}
+
+.spacer100 {
+	display: block;
+	width: 100vw;
+	height: 100px;
+}
+
+#pinnedElement2 {
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	font-family: 'Bungee Hairline';
+	font-size: 70px;
+}
+
+#pinnedElement3, #pinnedElement4, #pinnedElement4b {
+	width: 100%;
+	height: 900px;
+	background-color: white;
+}
+
+#info1, #info2, #info3, #info4 {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	height: 100%;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Gloria Hallelujah';
+}
+
+#info1 {
+	background-image: url("images/image1.jpg");
+}
+
+#info2 {
+	background-image: url("images/image2.jpg");
+	color: white;
+}
+
+#info3 {
+	background-image: url("images/image7.jpg");
+	color: white;
+}
+
+#info4 {
+	background-image: url("images/image8.jpg");
+	color: white;
+	width: 100vw;
+	height: 800px;
+	font-size: 37px;
+}
+
+#text2, #text4, #text12 {
+	display: none;
+	opacity: 0;
+}
+
+#pinnedElement5 {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 350px;
+	background-color: white;
+	position: relative;
+	left: -90%;
+	font-family: 'Ruda';
+	font-size: 25px;
+}
+
+#pinnedElement5_container {
+	width: 100%;
+	height: 350px;
+	padding: 0px;
+}
+
+#text5, #text6, #text7, #text8, #text9, #text10 {
+	position: relative;
+	opacity: 0;
+}
+
+#text5 {
+	padding-top: 20px;
+	left: 100%;
+}
+
+#text6 {
+	left: 110%;
+}
+
+#text7 {
+	left: 120%;
+}
+
+#text8 {
+	left: 130%;
+}
+
+#text9 {
+	left: 140%;
+}
+
+#text10 {
+	left: 150%;
+}
+
+body::-webkit-scrollbar {
+	
+}
+
+.scrollmagic-pin-spacer {
+	width: 100%;
+	height: 100%;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Oswald.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Bungee Hairline';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/BungeeHairline.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/GloriaHallelujah.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Ruda.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
