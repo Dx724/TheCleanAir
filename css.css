@@ -177,10 +177,6 @@ html, body {
 	left: 150%;
 }
 
-body::-webkit-scrollbar {
-	
-}
-
 .scrollmagic-pin-spacer {
 	width: 100%;
 	height: 100%;
